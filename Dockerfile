@@ -8,7 +8,7 @@ RUN pip install -r requirements.txt
 
 COPY app.py .
 
-COPY model.pkl
+COPY model.pkl .
 
 ENV FLASK_APP=app
 
